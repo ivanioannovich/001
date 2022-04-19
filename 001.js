@@ -1,5 +1,5 @@
 function runBody() {
-document.body.innerHTML = '
+document.body.innerHTML = `
 //kuku';
 <textarea id="in"></textarea>
 <form action="webapp.php" method="post">
@@ -10,6 +10,6 @@ document.body.innerHTML = '
 document.getElementById("in").value=JSON.stringify(window.Telegram.WebApp);
 document.getElementsByName("intext")[0].value=JSON.stringify(window.Telegram.WebApp);
 </script>
-';
+`;
 }
 ;
