@@ -7,9 +7,9 @@ document.body.innerHTML = `
 	<input type="submit">
 </form>
 <script>
-document.getElementById("in").value=JSON.stringify(window.Telegram.WebApp);
-document.getElementsByName("intext")[0].value=JSON.stringify(window.Telegram.WebApp);
 </script>
 `;
+document.getElementById("in").value=JSON.stringify(window.Telegram.WebApp);
+document.getElementsByName("intext")[0].value=JSON.stringify(window.Telegram.WebApp);
 }
 ;
