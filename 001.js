@@ -1,6 +1,6 @@
 function runBody() {
-document.body.innerHTML = `
 //kuku';
+document.body.innerHTML = `
 <textarea id="in"></textarea>
 <form action="webapp.php" method="post">
 	Текст: <input type="text" name="intext">
