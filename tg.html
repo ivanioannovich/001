@@ -3,6 +3,8 @@
 <script>
     function onMyButton() {
         alert('test');
+        arr = {'test': 1}
+        window.Telegram.WebApp.sendData(JSON.stringify(arr));
     }
     document.getElementById('myButton').addEventListener('click', onMyButton);
 </script>
